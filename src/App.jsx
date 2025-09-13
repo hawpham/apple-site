@@ -1,17 +1,15 @@
-import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
-// import AppRoutes from "./routes/router";
-import styles from "./styles/App.module.scss";
+import { Outlet } from "react-router-dom";
+import Footer from "./components/Footer/Footer.jsx";
+import MainHeader from "./components/Header/MainHeader.jsx";
 
-function App() {
+export default function App() {
   return (
-    <div className={styles.app}>
-      <Navbar />
-      <h1>AppLe.com</h1>
-      <main>{/* <AppRoutes /> */}</main>
+    <>
+      <MainHeader />
+      <main className="max-w-6xl mx-auto px-4 py-6">
+        <Outlet />
+      </main>
       <Footer />
-    </div>
+    </>
   );
 }
-
-export default App;
