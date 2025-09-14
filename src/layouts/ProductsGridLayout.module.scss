@@ -1,0 +1,151 @@
+.gridSection {
+  background: #f5f5f7;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 32px 0;
+}
+
+.row {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.productBox {
+  flex: 1 1 0px;
+  background: #f5f5f7;
+  border-radius: 18px;
+  text-align: center;
+  padding: 32px 18px 18px 18px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 370px;
+  box-sizing: border-box;
+}
+
+.darkBox {
+  background: #101012;
+  color: #fff;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1d1d1f;
+}
+.darkBox .title,
+.darkBox .desc,
+.darkBox .announce {
+  color: #fff;
+}
+.logo {
+  font-size: 1.4rem;
+  font-weight: 900;
+  vertical-align: middle;
+}
+
+.desc {
+  font-size: 1.05rem;
+  color: #444;
+  margin-bottom: 7px;
+}
+.announce {
+  font-size: 0.97rem;
+  color: #86868b;
+  margin-bottom: 16px;
+}
+.darkBox .desc {
+  color: #dadadf;
+}
+.darkBox .announce {
+  color: #9fa4ae;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.buttonPrimary {
+  background: #2997ff;
+  color: #fff;
+  border: none;
+  border-radius: 980px;
+  font-weight: 500;
+  font-size: 0.97rem;
+  padding: 7px 24px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.buttonPrimary:hover {
+  background: #1570ef;
+}
+
+.buttonOutline {
+  background: transparent;
+  color: #2997ff;
+  border: 2px solid #2997ff;
+  border-radius: 980px;
+  font-weight: 500;
+  font-size: 0.97rem;
+  padding: 7px 24px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+.buttonOutline:hover {
+  background: #eaf6ff;
+  color: #1570ef;
+  border-color: #1570ef;
+}
+
+.productImg {
+  width: 180px;
+  max-width: 89%;
+  margin: 8px auto 0 auto;
+  display: block;
+}
+
+.darkBox .buttonOutline {
+  border-color: #fff;
+  color: #fff;
+}
+.darkBox .buttonOutline:hover {
+  background: #222;
+  color: #2997ff;
+  border-color: #2997ff;
+}
+.darkBox .buttonPrimary {
+  background: #2997ff;
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .row {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .productBox {
+    min-height: 0;
+    margin-bottom: 6px;
+  }
+}
+@media (max-width: 480px) {
+  .productImg {
+    width: 120px;
+  }
+  .title {
+    font-size: 1.1rem;
+  }
+  .desc {
+    font-size: 0.86rem;
+  }
+}
