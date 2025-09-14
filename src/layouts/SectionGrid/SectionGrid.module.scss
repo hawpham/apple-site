@@ -1,0 +1,36 @@
+.gridSection {
+  background: #fff;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0 4px 24px rgba(60, 60, 67, 0.08);
+  // max-width: 1280px;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px; /* Khoảng cách giữa các card, Apple dùng khá lớn */
+  // padding: 10px; /* Padding bên trong grid rất rộng, tạo "border trắng" quanh các card */
+  border-radius: 2px;
+  background-color: #fff;
+  border: 1px solid red;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 15px 0;
+    border-radius: 0;
+    background-color: transparent;
+    margin-top: 5px;
+  }
+  .gridSection {
+    border-radius: 18px;
+    // margin: 14px 6vw;
+    margin: 0;
+  }
+}
