@@ -4,7 +4,7 @@ import SectionAutoSlider from "../../components/SectionAutoSlider/SectionAutoSli
 import SectionSlider from "../../components/SectionSlider/SectionSlider";
 import SectionFullWidth from "../../layouts/SectionFullWidth/SectionFullWidth";
 import SectionGrid from "../../layouts/SectionGrid/SectionGrid";
-import styles from "./Home.module.scss";
+// import styles from "./Home.module.scss";
 
 export default function Home() {
   const slideItems = [
@@ -87,55 +87,55 @@ export default function Home() {
           ]}
         />
         <CardProduct
-          title="iPhone 17"
-          description="Magichromatic"
+          title="Apple Watch Series 11"
+          description="The ultimate way to watch your health."
           announce="Available starting 9.19"
-          imageLg="/assets/products/promo_airpodspro_3_preorder.jpg"
-          imageSm="/assets/products/sm/promo_airpodspro_3_preorder_sm.jpg"
+          imageLg="/assets/products/promo_apple_watch_series_11_preorder.jpg"
+          imageSm="/assets/products/sm/promo_apple_watch_series_11_preorder_sm.jpg"
           buttons={[
             { label: "Learn more", href: "#", variant: "primary" },
             { label: "Pre-order", href: "#", variant: "outline" },
           ]}
         />
         <CardProduct
-          title="iPhone 17"
-          description="Magichromatic"
+          title="Apple Watch SE 3"
+          description="Walk it. Talk it. Track it. Love it."
           announce="Available starting 9.19"
-          imageLg="/assets/products/promo_airpodspro_3_preorder.jpg"
-          imageSm="/assets/products/sm/promo_airpodspro_3_preorder_sm.jpg"
+          imageLg="/assets/products/promo_apple_watch_se_3_preorder.jpg"
+          imageSm="/assets/products/sm/promo_apple_watch_se_3_preorder_sm.jpg"
           buttons={[
             { label: "Learn more", href: "#", variant: "primary" },
             { label: "Pre-order", href: "#", variant: "outline" },
           ]}
         />
         <CardProduct
-          title="iPhone 17"
-          description="Magichromatic"
+          title="Apple Watch Ultra 3"
+          description="Personal beast."
           announce="Available starting 9.19"
-          imageLg="/assets/products/promo_airpodspro_3_preorder.jpg"
-          imageSm="/assets/products/sm/promo_airpodspro_3_preorder_sm.jpg"
+          imageLg="/assets/products/promo_apple_watch_ultra3_preorder.jpg"
+          imageSm="/assets/products/sm/promo_apple_watch_ultra3_preorder_sm.jpg"
           buttons={[
             { label: "Learn more", href: "#", variant: "primary" },
             { label: "Pre-order", href: "#", variant: "outline" },
           ]}
         />
         <CardProduct
-          title="iPhone 17"
-          description="Magichromatic"
-          announce="Available starting 9.19"
-          imageLg="/assets/products/promo_airpodspro_3_preorder.jpg"
-          imageSm="/assets/products/sm/promo_airpodspro_3_preorder_sm.jpg"
+          title="Any condition carrier deals are here."
+          description="Select carriers accept eligible trade-in devices in any condition. Other offers available."
+          announce=""
+          imageLg="/assets/products/promo_carrier_01.jpg"
+          imageSm="/assets/products/sm/promo_carrier_01_sm.jpg"
           buttons={[
             { label: "Learn more", href: "#", variant: "primary" },
             { label: "Pre-order", href: "#", variant: "outline" },
           ]}
         />
         <CardProduct
-          title="iPhone 17"
-          description="Magichromatic"
-          announce="Available starting 9.19"
-          imageLg="/assets/products/promo_airpodspro_3_preorder.jpg"
-          imageSm="/assets/products/sm/promo_airpodspro_3_preorder_sm.jpg"
+          title="Apple Trade In"
+          description="Get up to $200–$700 in credit when you trade in iPhone 13 or higher."
+          announce=""
+          imageLg="/assets/products/promo_iphone_tradein.jpg"
+          imageSm="/assets/products/sm/promo_iphone_tradein_sm.jpg"
           buttons={[
             { label: "Learn more", href: "#", variant: "primary" },
             { label: "Pre-order", href: "#", variant: "outline" },
@@ -146,89 +146,6 @@ export default function Home() {
       <SectionSlider slides={slideItems} />
       <SectionAutoSlider slides={autoSlideItems} />
 
-      {/* <SectionFullWidth>
-        <CardProduct
-          title="iPhone Air"
-          description={`The thinnest iPhone ever.${(<br />)} With the power of pro inside.`}
-          announce="Available starting 9.19"
-          backgroundImage="/assets/products/hero_iphone_air_preorder.jpg"
-          buttons={[
-            { label: "Learn more", href: "#", variant: "primary" },
-            { label: "Pre-order", href: "#", variant: "outline" },
-          ]}
-        />
-      </SectionFullWidth>
-      <SectionFullWidth>
-        <CardProduct
-          title="iPhone 17"
-          description="Magichromatic"
-          announce="Available starting 9.19"
-          backgroundImage="/assets/products/hero_iphone_17_preorder.jpg"
-          buttons={[
-            { label: "Learn more", href: "#", variant: "primary" },
-            { label: "Pre-order", href: "#", variant: "outline" },
-          ]}
-        />
-      </SectionFullWidth> */}
-
-      {/* <SectionGrid>
-        <CardProduct
-          title="iPhone Air"
-          description={`The thinnest iPhone ever.${(<br></br>)} With the power of pro inside.`}
-          announce="Available starting 9.19"
-          backgroundImage="/assets/products/promo_airpodspro_3_preorder.jpg"
-          buttons={[
-            { label: "Learn more", href: "#", variant: "primary" },
-            { label: "Pre-order", href: "#", variant: "outline" },
-          ]}
-        />
-      </SectionGrid>
-
-      <SectionGrid>
-        <CardProduct
-          title="AirPods Pro 3"
-          description="The world’s best in-ear Active Noise Cancellation."
-          announce="Available starting 9.19"
-          backgroundImage="/assets/products/promo_airpodspro_3_preorder.jpg"
-          buttons={[
-            { label: "Learn more", href: "#", variant: "primary" },
-            { label: "Pre-order", href: "#", variant: "outline" },
-          ]}
-        />
-        <CardProduct
-          title="AirPods Pro 3"
-          description="The world’s best in-ear Active Noise Cancellation."
-          announce="Available starting 9.19"
-          backgroundImage="/assets/products/promo_airpodspro_3_preorder.jpg"
-          buttons={[
-            { label: "Learn more", href: "#", variant: "primary" },
-            { label: "Pre-order", href: "#", variant: "outline" },
-          ]}
-        />
-      </SectionGrid> */}
-
-      {/* <ProductGridLayout>
-        <CardProduct
-          title="AirPods Pro 3"
-          description="The world’s best in-ear Active Noise Cancellation."
-          announce="Available starting 9.19"
-          backgroundImage="/assets/products/promo_airpodspro_3_preorder.jpg"
-          buttons={[
-            { label: "Learn more", href: "#", variant: "primary" },
-            { label: "Pre-order", href: "#", variant: "outline" },
-          ]}
-        />
-        <CardProduct
-          title="AirPods Pro 3"
-          description="The world’s best in-ear Active Noise Cancellation."
-          announce="Available starting 9.19"
-          backgroundImage="/assets/products/promo_airpodspro_3_preorder.jpg"
-          buttons={[
-            { label: "Learn more", href: "#", variant: "primary" },
-            { label: "Pre-order", href: "#", variant: "outline" },
-          ]}
-        /> 
-      </ProductGridLayout> */}
       <section style={{ padding: "2rem", textAlign: "center" }}>
         <h2>Welcome to Apple Clone</h2>
         <p>Explore our latest products and innovations.</p>
