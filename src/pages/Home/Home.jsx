@@ -2,6 +2,8 @@ import CardProduct from "../../components/CardProduct/CardProduct";
 import HeroSection from "../../components/HeroSection/HeroSection";
 import IPhoneAirSection from "../../components/ProductsSection/IPhoneAirSection/IPhoneAirSection";
 import IPhone17Section from "../../components/ProductsSection/iPhone17Section/iPhone17Section";
+import SectionAutoSlider from "../../components/SectionAutoSlider/SectionAutoSlider";
+import SectionSlider from "../../components/SectionSlider/SectionSlider";
 import ProductGridLayout from "../../layouts/ProductGridLayout";
 import SectionFullWidth from "../../layouts/SectionFullWidth/SectionFullWidth";
 import SectionGrid from "../../layouts/SectionGrid/SectionGrid";
@@ -9,6 +11,16 @@ import SectionGrid from "../../layouts/SectionGrid/SectionGrid";
 import styles from "./Home.module.scss";
 
 export default function Home() {
+  const slideItems = [
+    <img src="/assets/slides/slide-item-01.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />,
+    <img src="/assets/slides/slide-item-01.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />,
+    <img src="/assets/slides/slide-item-01.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />,
+    <img src="/assets/slides/slide-item-01.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />,
+    <img src="/assets/slides/slide-item-01.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />,
+    <img src="/assets/slides/slide-item-01.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />,
+    <img src="/assets/slides/slide-item-01.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />,
+    // Hoặc dùng <YourCardComponent ... /> nếu muốn!
+  ];
   return (
     <div className={styles.home}>
       <SectionFullWidth>
@@ -115,6 +127,9 @@ export default function Home() {
           ]}
         />
       </SectionGrid>
+
+      <SectionSlider slides={slideItems} />
+      <SectionAutoSlider slides={slideItems} />
 
       {/* <SectionFullWidth>
         <CardProduct

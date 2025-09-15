@@ -42,6 +42,7 @@ const RAW_RUNTIME_STATE =
           ["react-icons", "virtual:b483a93f0bda7dddbda2e4d1502691aeabe32a5212b56fe2372f272490678b5687309096641e858a75cb61969411b3f906ac90a012f5b5f7265e5ea64ab0055e#npm:5.5.0"],\
           ["react-router-dom", "virtual:b483a93f0bda7dddbda2e4d1502691aeabe32a5212b56fe2372f272490678b5687309096641e858a75cb61969411b3f906ac90a012f5b5f7265e5ea64ab0055e#npm:7.8.2"],\
           ["sass", "npm:1.92.1"],\
+          ["swiper", "npm:12.0.1"],\
           ["vite", "virtual:b483a93f0bda7dddbda2e4d1502691aeabe32a5212b56fe2372f272490678b5687309096641e858a75cb61969411b3f906ac90a012f5b5f7265e5ea64ab0055e#npm:7.1.5"],\
           ["vite-plugin-svgr", "virtual:b483a93f0bda7dddbda2e4d1502691aeabe32a5212b56fe2372f272490678b5687309096641e858a75cb61969411b3f906ac90a012f5b5f7265e5ea64ab0055e#npm:4.5.0"]\
         ],\
@@ -1666,6 +1667,7 @@ const RAW_RUNTIME_STATE =
           ["react-icons", "virtual:b483a93f0bda7dddbda2e4d1502691aeabe32a5212b56fe2372f272490678b5687309096641e858a75cb61969411b3f906ac90a012f5b5f7265e5ea64ab0055e#npm:5.5.0"],\
           ["react-router-dom", "virtual:b483a93f0bda7dddbda2e4d1502691aeabe32a5212b56fe2372f272490678b5687309096641e858a75cb61969411b3f906ac90a012f5b5f7265e5ea64ab0055e#npm:7.8.2"],\
           ["sass", "npm:1.92.1"],\
+          ["swiper", "npm:12.0.1"],\
           ["vite", "virtual:b483a93f0bda7dddbda2e4d1502691aeabe32a5212b56fe2372f272490678b5687309096641e858a75cb61969411b3f906ac90a012f5b5f7265e5ea64ab0055e#npm:7.1.5"],\
           ["vite-plugin-svgr", "virtual:b483a93f0bda7dddbda2e4d1502691aeabe32a5212b56fe2372f272490678b5687309096641e858a75cb61969411b3f906ac90a012f5b5f7265e5ea64ab0055e#npm:4.5.0"]\
         ],\
@@ -3603,6 +3605,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../.yarn/berry/cache/svg-parser-npm-2.0.4-1b0b6afbe9-10c0.zip/node_modules/svg-parser/",\
         "packageDependencies": [\
           ["svg-parser", "npm:2.0.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["swiper", [\
+      ["npm:12.0.1", {\
+        "packageLocation": "../../../../.yarn/berry/cache/swiper-npm-12.0.1-d4d42f45ee-10c0.zip/node_modules/swiper/",\
+        "packageDependencies": [\
+          ["swiper", "npm:12.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
