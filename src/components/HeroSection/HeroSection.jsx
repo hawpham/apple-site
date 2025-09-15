@@ -4,19 +4,19 @@ function HeroSection() {
   return (
     <section className={styles.heroSection}>
       <div className={styles.textBox}>
-        <h1 className={styles.headline}>Event</h1>
-        <p className={styles.subtitle}>Live Stream</p>
-        <p className={styles.announce}>Available starting 9.19</p>
+        <h1 className={styles.headline}>Apple Event</h1>
+        <p className={styles.subtitle}>Watch today at 10 a.m PT</p>
+        {/* <p className={styles.announce}>Available starting 9.19</p> */}
         <div className={styles.actions}>
           <a href="#" className={styles.buttonPrimary}>
-            Learn more
+            Add to calendar
           </a>
-          <a href="#" className={styles.buttonOutline}>
+          {/* <a href="#" className={styles.buttonOutline}>
             Pre-order
-          </a>
+          </a> */}
         </div>
       </div>
-      <img className={styles.heroImage} src="/assets/products/hero_iphone_17_pro_preorder.jpg" alt="iPhone 17 Pro" />
+      <img className={styles.heroImage} src="/assets/events/apple_events_bg_vel.png" alt="Apple event" />
     </section>
   );
 }

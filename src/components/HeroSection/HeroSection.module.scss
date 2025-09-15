@@ -1,7 +1,8 @@
 .heroSection {
   background: #000;
   width: 100%;
-  min-height: 88vh;
+  min-height: 540px;
+  max-height: 692px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,20 +14,27 @@
 }
 
 .textBox {
-  margin-top: 32px;
   color: #fff;
   z-index: 1;
+  position: absolute;
+  bottom: 5%;
 }
 
 .headline {
   font-size: 3rem;
   font-weight: 700;
+  object-fit: contain;
   letter-spacing: -0.02em;
   margin-bottom: 8px;
+  background: linear-gradient(180deg, #3fb3f7, #2178ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
 .subtitle {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   margin-bottom: 10px;
   letter-spacing: -0.02em;
@@ -46,8 +54,8 @@
 }
 
 .buttonPrimary {
-  background: #06c;
-  color: #fff;
+  background: rgb(255, 255, 255);
+  color: #323232;
   border: none;
   border-radius: 980px;
   font-size: 1rem;
@@ -60,22 +68,10 @@
   display: inline-block;
 }
 .buttonPrimary:hover {
-  background: #004db3;
+  background: #e1eeff;
+  color: #000;
 }
 
-.buttonOutline {
-  background: transparent;
-  color: #06c;
-  border: 2px solid #06c;
-  border-radius: 980px;
-  font-size: 1rem;
-  font-weight: 500;
-  padding: 8px 20px;
-  text-decoration: none;
-  cursor: pointer;
-  transition: color 0.15s, border 0.15s, background 0.15s;
-  display: inline-block;
-}
 .buttonOutline:hover {
   background: #06c;
   color: #fff;
@@ -85,10 +81,11 @@
 .heroImage {
   //   width: 600px;
   width: 100%;
+  max-width: 380px;
   //   max-width: 95vw;
   position: absolute;
-  top: auto;
-  bottom: 0;
+  top: 0;
+  // bottom: 0;
   // margin: 0;
   // margin: 36px auto 0 auto;
   display: block;
@@ -110,9 +107,9 @@
     font-size: 1rem;
   }
   .heroImage {
-    width: 98svw;
+    // width: ;
     // margin-top: 15vw;
-    bottom: 0;
+    bottom: 25%;
     top: auto;
   }
 }
