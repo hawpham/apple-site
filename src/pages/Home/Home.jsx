@@ -114,6 +114,7 @@ export default function Home() {
           announce="Available starting 9.19"
           imageLg="/assets/products/promo_apple_watch_ultra3_preorder.jpg"
           imageSm="/assets/products/sm/promo_apple_watch_ultra3_preorder_sm.jpg"
+          dark
           buttons={[
             { label: "Learn more", href: "#", variant: "primary" },
             { label: "Pre-order", href: "#", variant: "outline" },
