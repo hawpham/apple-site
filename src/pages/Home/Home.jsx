@@ -34,6 +34,19 @@ export default function Home() {
       </SectionFullWidth>
       <SectionFullWidth>
         <CardProduct
+          title="iPhone Air"
+          description="The thinnest iPhone ever."
+          announce="Available starting 9.19"
+          imageLg="/assets/products/hero_iphone_air_preorder.jpg"
+          imageSm="/assets/products/sm/hero_iphone_air_preorder_sm.jpg"
+          buttons={[
+            { label: "Learn more", href: "#", variant: "primary" },
+            { label: "Pre-order", href: "#", variant: "outline" },
+          ]}
+        />
+      </SectionFullWidth>
+      <SectionFullWidth>
+        <CardProduct
           title="iPhone 17 Pro"
           description="All out Pro."
           announce="Available starting 9.19"
@@ -46,21 +59,6 @@ export default function Home() {
           ]}
         />
       </SectionFullWidth>
-
-      <SectionFullWidth>
-        <CardProduct
-          title="iPhone Air"
-          description="The thinnest iPhone ever."
-          announce="Available starting 9.19"
-          imageLg="/assets/products/hero_iphone_air_preorder.jpg"
-          imageSm="/assets/products/sm/hero_iphone_air_preorder_sm.jpg"
-          buttons={[
-            { label: "Learn more", href: "#", variant: "primary" },
-            { label: "Pre-order", href: "#", variant: "outline" },
-          ]}
-        />
-      </SectionFullWidth>
-
       <SectionFullWidth>
         <CardProduct
           title="iPhone 17"

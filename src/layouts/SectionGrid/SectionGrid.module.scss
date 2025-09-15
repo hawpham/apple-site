@@ -23,8 +23,8 @@
 @media (max-width: 900px) {
   .grid {
     grid-template-columns: 1fr;
-    gap: 8px;
-    padding: 15px 0;
+    gap: 6px;
+    // padding: 15px 0;
     border-radius: 0;
     background-color: transparent;
     margin-top: 5px;
@@ -33,5 +33,6 @@
     border-radius: 18px;
     // margin: 14px 6vw;
     margin: 0;
+    padding: 0;
   }
 }
