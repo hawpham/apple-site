@@ -1,7 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules"; // Swiper ≥v10, check your version
+import { Pagination, Navigation } from "swiper/modules"; // Swiper ≥v10, check your version
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 import styles from "./SectionSlider.module.scss";
 
 export default function SectionSlider({ slides }) {
@@ -11,7 +12,8 @@ export default function SectionSlider({ slides }) {
         slidesPerView={1}
         spaceBetween={8}
         pagination={{ clickable: true }}
-        modules={[Pagination]}
+        navigation
+        modules={[Pagination, Navigation]}
         className={styles.swiper}
         breakpoints={{
           0: { slidesPerView: 1, spaceBetween: 8 },
