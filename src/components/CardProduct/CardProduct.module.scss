@@ -49,7 +49,7 @@
   margin-bottom: 26px;
 }
 .dark {
-  background: #000;
+  // background: #000;
   color: #fff;
 }
 .dark .title,
@@ -118,6 +118,19 @@
   position: absolute;
 }
 
+.lgImg {
+  display: block;
+  width: 105%;
+  // max-width: 900px;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+}
+.smImg {
+  display: none;
+}
 @media (max-width: 900px) {
   .card {
     // min-height: 400px;
@@ -138,6 +151,12 @@
   }
   .productImg {
     max-width: 100vw;
+  }
+  .lgImg {
+    display: none;
+  }
+  .smImg {
+    display: block;
   }
 }
 

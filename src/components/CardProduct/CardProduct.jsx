@@ -1,6 +1,6 @@
 import styles from "./CardProduct.module.scss";
 
-export default function CardProduct({ title, description, announce, image, dark = false, buttons = [], children }) {
+export default function CardProduct({ title, description, announce, imageLg, imageSm, dark = false, buttons = [], children }) {
   return (
     <div className={`${styles.card} ${dark ? styles.dark : ""}`}>
       <div className={styles.content}>
@@ -16,9 +16,11 @@ export default function CardProduct({ title, description, announce, image, dark 
           ))}
         </div>
       </div>
-      {image && (
+      {imageLg && imageSm && (
         <div className={styles.productImgWrapper}>
-          <img src={image} alt="" className={styles.productImg} />
+          {/* <img src={image} alt="" className={styles.productImg} /> */}
+          <img src={imageLg} alt="" className={`${styles.productImg} ${styles.lgImg}`} />
+          <img src={imageSm} alt="" className={`${styles.productImg} ${styles.smImg}`} />
         </div>
       )}
     </div>

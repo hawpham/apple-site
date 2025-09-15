@@ -37,7 +37,8 @@ export default function Home() {
           title="iPhone 17 Pro"
           description="All out Pro."
           announce="Available starting 9.19"
-          image="/assets/products/hero_iphone_17_pro_preorder.jpg"
+          imageLg="/assets/products/hero_iphone_17_pro_preorder.jpg"
+          imageSm="/assets/products/sm/hero_iphone_17_pro_preorder_sm.jpg"
           dark
           buttons={[
             { label: "Learn more", href: "#", variant: "primary" },
@@ -51,7 +52,8 @@ export default function Home() {
           title="iPhone Air"
           description="The thinnest iPhone ever."
           announce="Available starting 9.19"
-          image="/assets/products/hero_iphone_air_preorder.jpg"
+          imageLg="/assets/products/hero_iphone_air_preorder.jpg"
+          imageSm="/assets/products/sm/hero_iphone_air_preorder_sm.jpg"
           buttons={[
             { label: "Learn more", href: "#", variant: "primary" },
             { label: "Pre-order", href: "#", variant: "outline" },
@@ -64,7 +66,8 @@ export default function Home() {
           title="iPhone 17"
           description="Magichromatic"
           announce="Available starting 9.19"
-          image="/assets/products/hero_iphone_17_preorder.jpg"
+          imageLg="/assets/products/hero_iphone_17_preorder.jpg"
+          imageSm="/assets/products/sm/hero_iphone_17_preorder_sm.jpg"
           buttons={[
             { label: "Learn more", href: "#", variant: "primary" },
             { label: "Pre-order", href: "#", variant: "outline" },
@@ -76,7 +79,8 @@ export default function Home() {
           title="iPhone 17"
           description="Magichromatic"
           announce="Available starting 9.19"
-          image="/assets/products/promo_airpodspro_3_preorder.jpg"
+          imageLg="/assets/products/promo_airpodspro_3_preorder.jpg"
+          imageSm="/assets/products/sm/promo_airpodspro_3_preorder_sm.jpg"
           buttons={[
             { label: "Learn more", href: "#", variant: "primary" },
             { label: "Pre-order", href: "#", variant: "outline" },
@@ -86,7 +90,8 @@ export default function Home() {
           title="iPhone 17"
           description="Magichromatic"
           announce="Available starting 9.19"
-          image="/assets/products/promo_airpodspro_3_preorder.jpg"
+          imageLg="/assets/products/promo_airpodspro_3_preorder.jpg"
+          imageSm="/assets/products/sm/promo_airpodspro_3_preorder_sm.jpg"
           buttons={[
             { label: "Learn more", href: "#", variant: "primary" },
             { label: "Pre-order", href: "#", variant: "outline" },
@@ -96,7 +101,8 @@ export default function Home() {
           title="iPhone 17"
           description="Magichromatic"
           announce="Available starting 9.19"
-          image="/assets/products/promo_airpodspro_3_preorder.jpg"
+          imageLg="/assets/products/promo_airpodspro_3_preorder.jpg"
+          imageSm="/assets/products/sm/promo_airpodspro_3_preorder_sm.jpg"
           buttons={[
             { label: "Learn more", href: "#", variant: "primary" },
             { label: "Pre-order", href: "#", variant: "outline" },
@@ -106,7 +112,8 @@ export default function Home() {
           title="iPhone 17"
           description="Magichromatic"
           announce="Available starting 9.19"
-          image="/assets/products/promo_airpodspro_3_preorder.jpg"
+          imageLg="/assets/products/promo_airpodspro_3_preorder.jpg"
+          imageSm="/assets/products/sm/promo_airpodspro_3_preorder_sm.jpg"
           buttons={[
             { label: "Learn more", href: "#", variant: "primary" },
             { label: "Pre-order", href: "#", variant: "outline" },
@@ -116,7 +123,8 @@ export default function Home() {
           title="iPhone 17"
           description="Magichromatic"
           announce="Available starting 9.19"
-          image="/assets/products/promo_airpodspro_3_preorder.jpg"
+          imageLg="/assets/products/promo_airpodspro_3_preorder.jpg"
+          imageSm="/assets/products/sm/promo_airpodspro_3_preorder_sm.jpg"
           buttons={[
             { label: "Learn more", href: "#", variant: "primary" },
             { label: "Pre-order", href: "#", variant: "outline" },
@@ -126,7 +134,8 @@ export default function Home() {
           title="iPhone 17"
           description="Magichromatic"
           announce="Available starting 9.19"
-          image="/assets/products/promo_airpodspro_3_preorder.jpg"
+          imageLg="/assets/products/promo_airpodspro_3_preorder.jpg"
+          imageSm="/assets/products/sm/promo_airpodspro_3_preorder_sm.jpg"
           buttons={[
             { label: "Learn more", href: "#", variant: "primary" },
             { label: "Pre-order", href: "#", variant: "outline" },
