@@ -2,7 +2,8 @@ import styles from "./MainHeader.module.scss";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-const NAV_LINKS = ["Store", "Mac", "iPad", "iPhone", "Watch", "Vision", "AirPods", "Entertainment", "Accessories", "Support"];
+const NAV_LINKS = ["Store", "Mac", "iPad", "iPhone", "Watch", "Vision", "AirPods", "Support"];
+//  "Entertainment", "Accessories",
 
 function MainHeader() {
   const [menuOpen, setMenuOpen] = useState(false);

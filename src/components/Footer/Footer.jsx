@@ -99,15 +99,15 @@ function FooterInfo() {
   return (
     <div className={styles.footerInfo}>
       <p>
-        More ways to shop:
+        More ways to shop:{" "}
         <NavLink to="/" className={styles.footerLink}>
           Find an Apple Store
-        </NavLink>
-        or
+        </NavLink>{" "}
+        or{" "}
         <NavLink to="/" className={styles.footerLink}>
           other retailer
-        </NavLink>
-        near you. Or call
+        </NavLink>{" "}
+        near you. <br /> Or call{" "}
         <NavLink to="/" className={styles.footerLink}>
           1-800-MY-APPLE
         </NavLink>
