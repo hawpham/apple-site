@@ -18,7 +18,7 @@ export default function SectionSlider({ slides }) {
         speed={3000}
         loop={true}
         autoplay={{
-          delay: 1000,
+          delay: 4000,
           disableOnInteraction: false,
           pauseOnMouseEnter: true,
         }}
