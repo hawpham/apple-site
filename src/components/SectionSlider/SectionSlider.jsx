@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper/modules"; // Swiper ≥v10, check your version
+import { Pagination, Navigation, Autoplay } from "swiper/modules"; // Swiper ≥v10, check your version
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -13,8 +13,15 @@ export default function SectionSlider({ slides }) {
         spaceBetween={8}
         pagination={{ clickable: true }}
         navigation
-        modules={[Pagination, Navigation]}
+        modules={[Pagination, Navigation, Autoplay]}
         className={styles.swiper}
+        speed={3000}
+        loop={true}
+        autoplay={{
+          delay: 1000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        }}
         breakpoints={{
           0: { slidesPerView: 1, spaceBetween: 8 },
           900: { slidesPerView: 2, spaceBetween: 8 },

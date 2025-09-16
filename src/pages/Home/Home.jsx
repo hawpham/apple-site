@@ -16,6 +16,7 @@ export default function Home() {
     <img src="/assets/slides/slide-item-06.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />,
     <img src="/assets/slides/slide-item-07.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />,
   ];
+
   const autoSlideItems = [
     <img src="/assets/slides/slides-auto/slide-a-01.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />,
     <img src="/assets/slides/slides-auto/slide-a-02.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />,

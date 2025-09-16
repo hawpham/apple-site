@@ -55,6 +55,13 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       {/* Default*/}
+      <div className={styles.footerDetail}>
+        <p>The ECG app is available on Apple Watch Series 4 and later (excluding Apple Watch SE models) and can generate an ECG similar to a single-lead electrocardiogram. Intended for use by people 22 years old or older.</p>
+        <p>The Vitals app is for wellness purposes only and not for medical use.</p>
+        <p>A subscription is required for Apple Arcade, Apple Fitness+, Apple Music, and Apple TV+.</p>
+        <p>Features are subject to change. Some features, applications, and services may not be available in all regions or all languages.</p>
+        <hr />
+      </div>
       <div className={styles.footerDesktop}>
         <div className={styles.grid}>
           {footerLinks.map((group, idx) => (
