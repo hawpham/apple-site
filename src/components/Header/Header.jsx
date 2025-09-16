@@ -1,10 +1,10 @@
-import styles from "./MainHeader.module.scss";
+import styles from "./Header.module.scss";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const NAV_LINKS = ["Store", "Mac", "iPad", "iPhone", "Watch", "Vision", "AirPods", "Entertainment", "Accessories", "Support"];
 
-function MainHeader() {
+function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -77,4 +77,4 @@ function MainHeader() {
   );
 }
 
-export default MainHeader;
+export default Header;
