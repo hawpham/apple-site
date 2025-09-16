@@ -2,8 +2,7 @@ import styles from "./MainHeader.module.scss";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-const NAV_LINKS = ["Store", "Mac", "iPad", "iPhone", "Watch", "Vision", "AirPods", "Support"];
-//  "Entertainment", "Accessories",
+const NAV_LINKS = ["Store", "Mac", "iPad", "iPhone", "Watch", "Vision", "AirPods", "Entertainment", "Accessories", "Support"];
 
 function MainHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -60,10 +59,10 @@ function MainHeader() {
         </div>
       </header>
 
-      {/* Mobile */}
+      {/* SM */}
       <div className={`${styles.mobileMenu} ${menuOpen ? styles.show : ""}`}>
         <button className={styles.closeBtn} aria-label="Close" onClick={() => setMenuOpen(false)}>
-          <img src="/assets/icons/close.svg" alt="Close Menu" />
+          <img src="/assets/icons/close.svg" />
         </button>
         <ul className={styles.menuList}>
           {NAV_LINKS.map((link) => (
