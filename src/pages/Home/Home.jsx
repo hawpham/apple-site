@@ -144,11 +144,6 @@ export default function Home() {
 
       <SectionSlider slides={slideItems} />
       <SectionAutoSlider slides={autoSlideItems} />
-
-      <section style={{ padding: "2rem", textAlign: "center" }}>
-        <h2>Welcome to Apple Clone</h2>
-        <p>Explore our latest products and innovations.</p>
-      </section>
     </>
   );
 }
