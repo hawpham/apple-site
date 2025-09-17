@@ -1,6 +1,6 @@
 import CardProduct from "../../components/CardProduct/CardProduct";
 import HeroSection from "../../components/HeroSection/HeroSection";
-import SectionAutoSlider from "../../components/SectionAutoSlider/SectionAutoSlider";
+import SectionLoopSlider from "../../components/SectionLoopSlider/SectionLoopSlider";
 import SectionSlider from "../../components/SectionSlider/SectionSlider";
 import SectionFullWidth from "../../layouts/SectionFullWidth/SectionFullWidth";
 import SectionGrid from "../../layouts/SectionGrid/SectionGrid";
@@ -142,7 +142,7 @@ export default function Home() {
       </SectionGrid>
 
       <SectionSlider slides={slideItems} />
-      <SectionAutoSlider slides={autoSlideItems} />
+      <SectionLoopSlider slides={autoSlideItems} />
     </>
   );
 }

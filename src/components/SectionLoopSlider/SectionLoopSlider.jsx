@@ -3,9 +3,9 @@ import { Autoplay, FreeMode, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-import styles from "./SectionAutoSlider.module.scss";
+import styles from "./SectionLoopSlider.module.scss";
 
-export default function SectionAutoSlider({ slides }) {
+export default function SectionLoopSlider({ slides }) {
   return (
     <section className={styles.sectionSlider}>
       <Swiper
